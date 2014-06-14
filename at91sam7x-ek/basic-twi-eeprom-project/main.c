@@ -34,6 +34,9 @@
 /// Slave address of AT24C chips.
 #define AT24C_ADDRESS   0x50
 
+
+/// Page size of an AT24C512 chip (in bytes)
+//#define PAGE_SIZE       64
 /// Page size of an AT24C02 chip (in bytes)
 #define PAGE_SIZE       8
 
@@ -69,7 +72,7 @@ int main()
    	//Section 1 
     PIO_Configure(pins, PIO_LISTSIZE(pins));
     TRACE_CONFIGURE(DBGU_STANDARD, 115200, BOARD_MCK);
-    printf("Basic TWI EEPROM Project\n\rNaminicGroup,MajidKhalili\n\r");
+    printf("Basic TWI EEPROM Project\n\rNaminicGroup\n\r");
     
 	//Section 2
     // Configure TWI
