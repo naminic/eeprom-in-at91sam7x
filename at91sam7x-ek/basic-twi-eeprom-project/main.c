@@ -1,7 +1,8 @@
 //------------------------------------------------------------------------------
 //         Headers
 
-WWW.NAMINIC.COM
+//WWW.NAMINIC.COM
+
 //------------------------------------------------------------------------------
 
 #include <board.h>
@@ -33,8 +34,8 @@ WWW.NAMINIC.COM
 /// Slave address of AT24C chips.
 #define AT24C_ADDRESS   0x50
 
-/// Page size of an AT24C512 chip (in bytes)
-#define PAGE_SIZE       64
+/// Page size of an AT24C02 chip (in bytes)
+#define PAGE_SIZE       8
 
 //------------------------------------------------------------------------------
 //         Local variables
